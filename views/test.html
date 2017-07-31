@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eat Da Burger</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
+	<script
+	  src="http://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body {
+			 background-image: url("../public/assets/images/the-burger.jpg");
+		}
+
+		.container {
+			width : "90%";
+			border: 2px solid #fff;
+			margin-top: 15px;
+		}
+
+		#heading {
+			background-color: #edd75c;
+			color:black;
+			padding: 5px;
+			text-align: center;
+			font-family: Artifika;
+
+		}
+
+		#panels	{
+			margin-top: 8px;
+		}
+
+		#new-burger-name {
+			margin-bottom: 10px;
+		}
+
+		.panel-success .panel-heading {
+		  background: #129107;
+		  color:#fff;
+		  font-size: 15px;
+		  font-family: Artifika;
+		  text-align: center;
+		}
+
+		.panel-danger .panel-heading {
+		  background: #b7321b;
+		  color:#fff;
+		  font-size: 15px;
+		  font-family: Artifika;
+		  text-align: center;
+		}
+
+		.panel-primary .panel-heading {
+		  
+		  color:#fff;
+		  font-size: 15px;
+		  font-family: Artifika;
+		  text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container ">
+
+		<div class="row">
+			<div class="col-md-12" id="heading"><h1> Eat Da Burger</h1></div>
+		</div>
+		
+		<div class="row" id="panels">
+			<div class="col-md-4">
+				<div class="panel panel-success">
+				    <div class="panel-heading">Available Burgers</div>
+				    <!-- <div class="panel-body"> -->
+				    	<div class="panel-body">Cheddar BLT Burgers with Tarragon &nbsp;<button  class="btn btn-danger">Devour</button></div>
+				    	
+				    <!-- </div> -->
+				</div>
+			</div>
+			<div class="col-md-4" >
+				<div class="panel panel-primary">
+				    <div class="panel-heading">Create A Burger</div>
+				    <div class="panel-body form-group">
+				      <input type="text" class="form-control" id="new-burger-name" placeholder="Enter the new Burger Name">
+				      <div><button class="btn btn-success">Submit</button></div>
+				    </div>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-danger">
+				    <div class="panel-heading">Devour Burgers</div>
+				    <div class="panel-body">Panel Content</div>
+				</div>
+			</div>
+		
+		</div>
+
+	</div>
+</body>
+</html>
